@@ -1,0 +1,77 @@
+\section*{Resumen}
+
+\noindent
+\textit{Hausu} (Nobuhiko Obayashi, 1977) ha sido tradicionalmente descrita como un film de culto “inclasificable” debido a su estética saturada, su mezcla de horror y comedia y su montaje fragmentado. Este ensayo sostiene que la película no puede comprenderse únicamente desde las tendencias globales del proto-slasher ni desde el experimentalismo japonés de la época. Por el contrario, \textit{Hausu} emerge como el resultado singular de la convergencia de cuatro fuerzas culturales específicas del Japón de los años 1970: (1) la dramaturgia del fantasma femenino del teatro Nō; (2) la gramática visual hipersaturada de la televisión y la publicidad japonesa; (3) la lógica representacional del cuerpo femenino heredada del \textit{Pink Eiga} y el \textit{Roman Porno}; y (4) la memoria traumática pos-Hiroshima procesada mediante códigos pop-infantiles. A través de la comparación con obras europeas y estadounidenses contemporáneas, el ensayo identifica qué elementos son intercambiables y cuáles resultan irrepetibles fuera de Japón. La conclusión afirma que \textit{Hausu} constituye una singularidad estética que ilumina el cruce entre tradición, modernidad pop y trauma histórico en el Japón posbélico.
+
+
+
+
+\begin{figure}[ht]
+  \centering
+  \begin{tikzpicture}[
+    node distance=6mm,
+    box/.style={
+      rectangle,
+      rounded corners,
+      draw=black!60,
+      fill=black!5,
+      align=left,
+      font=\small,
+      inner sep=4pt,
+      text width=0.7\linewidth
+    },
+    core/.style={
+      rectangle,
+      rounded corners,
+      draw=black,
+      very thick,
+      fill=black!3,
+      align=center,
+      font=\bfseries,
+      inner sep=6pt,
+      text width=0.6\linewidth
+    },
+    arrow/.style={-Latex, thick}
+  ]
+
+  % ---- Entradas japonesas ----
+  \node[box] (jp) {
+    \textbf{Entradas japonesas}\\[2pt]
+    -- Teatro Nō: fantasma femenino, tiempo suspendido, espacio ritual.\\
+    -- Televisión y publicidad 70s: colores saturados, ritmo frenético, estética pop.\\
+    -- \textit{Pink Eiga} / \textit{Roman Porno}: cuerpo femenino fragmentado como código visual.\\
+    -- Trauma pos-Hiroshima: memoria bélica procesada mediante fantasía y humor.
+  };
+
+  % ---- Entradas globales ----
+  \node[box, below=of jp] (gl) {
+    \textbf{Entradas globales}\\[2pt]
+    -- Horror juvenil / proto-slasher: adolescentes, casa aislada, muertes episódicas.\\
+    -- Surrealismo sensorial europeo: color expresivo, atmósferas oníricas.\\
+    -- Cine experimental 70s: anti-realismo, montaje agresivo, narrativas fragmentadas.\\
+    -- Efectos ópticos y trucos: sobreimpresiones, animación, visualidad psicodélica.
+  };
+
+  % ---- Nodo central: Hausu ----
+  \node[core, below=of gl] (hausu) {
+    \textit{Hausu} (1977)\\[2pt]
+    \normalsize Convergencia específica de Japón + tendencias globales
+  };
+
+  % ---- Salida / resultado estético ----
+  \node[box, below=of hausu] (out) {
+    \textbf{Salida: estética y legado}\\[2pt]
+    -- Horror infantil-pop y \textit{kawaii} siniestro.\\
+    -- Fragmentación del cuerpo femenino sin moralización ni castigo sexual.\\
+    -- Lógica de ``videojuego'' (niveles, roles, pruebas).\\
+    -- Influencia en horror pop japonés, anime y cine posterior.
+  };
+
+  % Flechas
+  \draw[arrow] (jp.south) -- (gl.north);
+  \draw[arrow] (gl.south) -- (hausu.north);
+  \draw[arrow] (hausu.south) -- (out.north);
+
+  \end{tikzpicture}
+  \caption{Esquema de entradas y salidas culturales que, según la propuesta del ensayo, configuran la singularidad estética de \textit{Hausu} (1977).}
+\end{figure}
