@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+
+% ============================
+% PACKAGES Y CONFIGURACIÓN
+% ============================
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{titlesec}
+\usepackage{style}
+\usepackage[spanish]{babel} 
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  natbib=true
+]{biblatex}
+\addbibresource{references.bib}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,shapes.misc}
+
+\geometry{margin=1in}
+\doublespacing
+
+\title{
+\textbf{\Huge *Hausu* (1977): Entre el Teatro Nō,\\
+la Televisualidad Pop y el Trauma Posbélico}\\[5pt]
+\Large Un estudio cultural, histórico y computacional de una estética japonesa irrepetible
+}
+\author{Jorge Luis Mayorga Taborda}
+\date{\today}
+
+\begin{document}
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+% ============================
+% CHAPTERS
+% ============================
+
+\input{chapters/ch0_abstract}
+\input{chapters/ch1_introduccion}
+\input{chapters/ch2_contexto_japones}
+\input{chapters/ch3_contexto_global}
+\input{chapters/ch4_obayashi}
+\input{chapters/ch5_fuerzas_culturales}
+\input{chapters/ch6_intercambiables}
+\input{chapters/ch7_irreproducibles}
+\input{chapters/ch8_contraejemplos}
+\input{chapters/ch9_influencias}
+\input{chapters/ch10_conclusion}
+
+\printbibliography
+
+\end{document}
