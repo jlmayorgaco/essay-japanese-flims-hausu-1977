@@ -1,0 +1,136 @@
+% ==========================================================
+%  style.sty — Estilo académico cine japonés / Hausu
+%  VERSIÓN 2 (Más Artística / "Cinematographic-ish")
+% ==========================================================
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{style}[2025/11/14 Japanese Film Studies Style (V2-Artistic)]
+
+% ----------------------------------------------------------
+% Carga de paquetes
+% ----------------------------------------------------------
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\RequirePackage{microtype}
+\RequirePackage{xcolor}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr}
+\RequirePackage{etoolbox}
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{hyperref}
+\RequirePackage{pgfplots} 
+\pgfplotsset{compat=1.18} % o la versión que uses
+% NEW: Paquete para iconos (como el de 'film')
+\RequirePackage{fontawesome5} 
+
+% ----------------------------------------------------------
+% Paleta de colores (Expandida para Hausu)
+% ----------------------------------------------------------
+\definecolor{jpRed}{HTML}{C3002F}     % rojo vermillion
+\definecolor{jpInk}{HTML}{111111}     % negro tinta
+\definecolor{jpGray}{HTML}{4A4A4A}    % gris neutro
+\definecolor{jpGold}{HTML}{C89A3D}    % dorado suave
+\definecolor{jpSoft}{HTML}{F5F1EB}    % fondo suave
+
+% NEW: Colores psicodélicos inspirados en Hausu
+\definecolor{hausuBlue}{HTML}{00A0B0}   % Un azul "pop"
+\definecolor{hausuGreen}{HTML}{6A994E}  % Un verde "fantasma"
+
+% Colores para hipervínculos
+\colorlet{linkblue}{hausuBlue} % NEW: Usando el azul nuevo
+\colorlet{urlblue}{jpGold}
+\colorlet{citeblue}{jpGray}
+
+% ... (El resto de configuraciones como 'parskip', 'parindent', 'AtBeginDocument'
+%      'titleformat', 'titlespacing', 'fancyhdr' y 'maketitle'
+%      siguen siendo las mismas que te di antes. Las omito aquí por brevedad,
+%      pero asegúrate de que sigan en tu archivo.) ...
+
+% (Asegúrate de que esta parte de fancyhdr esté en tu archivo)
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyhead[L]{\sffamily\small \textcolor{jpGray}{Hausu (1977) y estética japonesa}}
+\fancyhead[R]{\sffamily\small \textcolor{jpRed}{\nouppercase{\leftmark}}}
+\fancyfoot[C]{\sffamily\small \textcolor{jpGray}{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{%
+  \color{jpRed}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+% (Asegúrate de que esta parte de maketitle esté en tu archivo)
+\preto{\maketitle}{%
+  \thispagestyle{empty}%
+}
+\apptocmd{\maketitle}{%
+  \vspace{-1.5em}%
+  \begin{center}
+    \rule{0.4\textwidth}{0.8pt}\\[0.6em]
+    {\small\sffamily\textcolor{jpGray}{Ensayo de estudios fílmicos y cultura visual japonesa}}
+  \end{center}
+  \vspace{1em}
+}{}{}
+
+% ----------------------------------------------------------
+% Entornos personalizados (ACTUALIZADOS)
+% ----------------------------------------------------------
+
+% --- Configuración de TColorBox ---
+\tcbset{
+  fonttitle=\bfseries\sffamily,
+  sharp corners,
+}
+
+% --- 1. Cita destacada (NUEVO ESTILO) ---
+% Ahora usa tcolorbox para un "look" más gráfico
+% con una barra lateral gruesa.
+\newenvironment{jpquote}
+  {\begin{tcolorbox}[
+     colback=jpSoft,
+     colframe=jpGray,
+     boxrule=0pt, % Sin borde exterior
+     leftrule=4pt, % Barra gruesa a la izquierda
+     colbacktitle=jpSoft,
+     coltitle=jpGray,
+     fonttitle=\sffamily\itshape,
+     title={Cita destacada},
+     bottom=4pt, top=4pt, left=8pt, right=8pt,
+   ]}
+  {\end{tcolorbox}}
+
+% --- 2. Recuadro de análisis (NUEVO ESTILO) ---
+% Ahora tiene un ícono de película, un color nuevo
+% y una sombra para un efecto "pop-art".
+\newtcolorbox{filmnote}[1][Nota de Análisis]{
+  colback=jpSoft,
+  colframe=hausuBlue, % NEW: color de borde
+  coltitle=jpInk,
+  boxrule=0.8pt,
+  title={\sffamily \faFilm\space\space #1}, % NEW: ícono de película
+  % NEW: Sombra sutil
+  enhanced,
+  drop shadow=jpGray,
+}
+
+% ----------------------------------------------------------
+% Configuración de Hipervínculos (al final)
+% ----------------------------------------------------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=urlblue,
+    citecolor=citeblue,
+    pdfauthor={Jorge Luis Mayorga Taborda}, 
+    pdftitle={Hausu (1977) - Ensayo}, 
+    pdfsubject={Estética y cultura visual del cine japonés},
+    pdfcreator={LaTeX}
+}
+
+
+
+% ----------------------------------------------------------
+% FILM STRIP HEADER / FOOTER
+% ----------------------------------------------------------
+
+
+% --- Fin de style.sty ---
