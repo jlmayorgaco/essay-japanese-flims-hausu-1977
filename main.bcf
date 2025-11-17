@@ -2414,6 +2414,11 @@
     <bcf:citekey order="36" intorder="1">MesMidnightEye2009</bcf:citekey>
     <bcf:citekey order="36" intorder="2">ObayashiSenses2021</bcf:citekey>
     <bcf:citekey order="37" intorder="1">MidnightEyeGuide2004</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Shamoon2012</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">TelevisionJapanStats</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Mes2009</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Gerow2010</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">McRoy2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
