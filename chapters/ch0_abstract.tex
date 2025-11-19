@@ -6,72 +6,80 @@
 
 
 
+
 \begin{figure}[ht]
-  \centering
-  \begin{tikzpicture}[
-    node distance=6mm,
-    box/.style={
-      rectangle,
-      rounded corners,
-      draw=black!60,
-      fill=black!5,
-      align=left,
-      font=\small,
-      inner sep=4pt,
-      text width=0.7\linewidth
-    },
-    core/.style={
-      rectangle,
-      rounded corners,
-      draw=black,
-      very thick,
-      fill=black!3,
-      align=center,
-      font=\bfseries,
-      inner sep=6pt,
-      text width=0.6\linewidth
-    },
-    arrow/.style={-Latex, thick}
-  ]
-
-  % ---- Entradas japonesas ----
-  \node[box] (jp) {
-    \textbf{Entradas japonesas}\\[2pt]
-    -- Teatro Nō: fantasma femenino, tiempo suspendido, espacio ritual.\\
-    -- Televisión y publicidad 70s: colores saturados, ritmo frenético, estética pop.\\
-    -- \textit{Pink Eiga} / \textit{Roman Porno}: cuerpo femenino fragmentado como código visual.\\
-    -- Trauma pos-Hiroshima: memoria bélica procesada mediante fantasía y humor.
-  };
-
-  % ---- Entradas globales ----
-  \node[box, below=of jp] (gl) {
-    \textbf{Entradas globales}\\[2pt]
-    -- Horror juvenil / proto-slasher: adolescentes, casa aislada, muertes episódicas.\\
-    -- Surrealismo sensorial europeo: color expresivo, atmósferas oníricas.\\
-    -- Cine experimental 70s: anti-realismo, montaje agresivo, narrativas fragmentadas.\\
-    -- Efectos ópticos y trucos: sobreimpresiones, animación, visualidad psicodélica.
-  };
-
-  % ---- Nodo central: Hausu ----
-  \node[core, below=of gl] (hausu) {
-    \textit{Hausu} (1977)\\[2pt]
-    \normalsize Convergencia específica de Japón + tendencias globales
-  };
-
-  % ---- Salida / resultado estético ----
-  \node[box, below=of hausu] (out) {
-    \textbf{Salida: estética y legado}\\[2pt]
-    -- Horror infantil-pop y \textit{kawaii} siniestro.\\
-    -- Fragmentación del cuerpo femenino sin moralización ni castigo sexual.\\
-    -- Lógica de ``videojuego'' (niveles, roles, pruebas).\\
-    -- Influencia en horror pop japonés, anime y cine posterior.
-  };
-
-  % Flechas
-  \draw[arrow] (jp.south) -- (gl.north);
-  \draw[arrow] (gl.south) -- (hausu.north);
-  \draw[arrow] (hausu.south) -- (out.north);
-
-  \end{tikzpicture}
-  \caption{Esquema de entradas y salidas culturales que, según la propuesta del ensayo, configuran la singularidad estética de \textit{Hausu} (1977).}
+	\centering
+	\begin{tikzpicture}[
+		node distance=8mm,
+		% Estilo de las cajas (Sin el comando title erróneo)
+		box/.style={
+			rectangle,
+			rounded corners,
+			draw=hausuDark,
+			thick,
+			fill=hausuGhost,
+			align=left,
+			font=\small\sffamily,
+			inner sep=6pt,
+			text width=0.75\linewidth,
+			drop shadow={opacity=0.5, shadow xshift=2pt, shadow yshift=-2pt}
+		},
+		% Estilo del núcleo
+		core/.style={
+			rectangle,
+			rounded corners,
+			draw=hausuDark,
+			ultra thick,
+			fill=hausuBlood,
+			text=white,
+			align=center,
+			font=\bfseries\large\sffamily,
+			inner sep=8pt,
+			text width=0.6\linewidth,
+			drop shadow={opacity=0.8, shadow xshift=3pt, shadow yshift=-3pt}
+		},
+		% Flechas
+		arrow/.style={-Latex, color=hausuOrange, line width=2pt}
+		]
+		
+		% ---- Entradas japonesas ----
+		% CORRECCIÓN: Quitamos "title=..." de aquí
+		\node[box] (jp) {
+			\textbf{\textcolor{hausuPurple}{Entradas japonesas}}\\[3pt]
+			-- Teatro Nō: fantasma femenino, tiempo suspendido.\\
+			-- TV y publicidad 70s: colores saturados, ritmo frenético.\\
+			-- \textit{Pink Eiga}: cuerpo femenino fragmentado.\\
+			-- Trauma pos-Hiroshima: memoria bélica y fantasía.
+		};
+		
+		% ---- Entradas globales ----
+		\node[box, below=of jp] (gl) {
+			\textbf{\textcolor{hausuPurple}{Entradas globales}}\\[3pt]
+			-- Horror juvenil / proto-slasher.\\
+			-- Surrealismo sensorial europeo.\\
+			-- Cine experimental 70s: anti-realismo.\\
+			-- Efectos ópticos y trucos psicodélicos.
+		};
+		
+		% ---- Nodo central: Hausu ----
+		\node[core, below=of gl] (hausu) {
+			\faCat \space \textit{HAUSU} (1977) \space \faGhost \\[3pt]
+			\small Convergencia de Japón + Global
+		};
+		
+		% ---- Salida / resultado estético ----
+		\node[box, below=of hausu] (out) {
+			\textbf{\textcolor{hausuPurple}{Salida: estética y legado}}\\[3pt]
+			-- Horror infantil-pop y \textit{kawaii} siniestro.\\
+			-- Lógica de ``videojuego'' (niveles, roles).\\
+			-- Influencia en horror pop y anime posterior.
+		};
+		
+		% Flechas
+		\draw[arrow] (jp.south) -- (gl.north);
+		\draw[arrow] (gl.south) -- (hausu.north);
+		\draw[arrow] (hausu.south) -- (out.north);
+		
+	\end{tikzpicture}
+	\caption{Esquema de la singularidad estética de \textit{Hausu}.}
 \end{figure}
