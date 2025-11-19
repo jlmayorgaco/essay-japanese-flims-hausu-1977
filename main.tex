@@ -1,59 +1,90 @@
-\documentclass[12pt]{article}
+\documentclass[12pt, a4paper]{article}
 
 % ============================
-% PACKAGES Y CONFIGURACIÓN
+% 1. STYLE & LANGUAGE
 % ============================
-\usepackage[utf8]{inputenc}
-\usepackage{geometry}
-\usepackage{setspace}
-\usepackage{hyperref}
+% Load your new "Hausu" style first. 
+% It handles: geometry, hyperref, titlesec, tikz, xcolor, fancyhdr, etc.
+\usepackage{style} 
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
 \usepackage{csquotes}
-\usepackage{titlesec}
-\usepackage{style}
-\usepackage[spanish]{babel} 
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% ============================
+% 2. BIBLIOGRAPHY
+% ============================
 \usepackage[
-  backend=biber,
-  style=authoryear,
-  natbib=true
+backend=biber,
+style=authoryear,
+natbib=true,
+maxcitenames=2
 ]{biblatex}
 \addbibresource{references.bib}
-\usepackage{tikz}
-\usetikzlibrary{positioning,arrows.meta,fit,shapes.misc}
 
-\geometry{margin=1in}
-\doublespacing
+% ============================
+% 3. EXTRA DIAGRAM CONFIG
+% ============================
+% 'style.sty' loads TikZ core. Here we just load the 
+% specific libraries you need for your diagrams in the chapters.
+\usetikzlibrary{positioning, arrows.meta, fit, shapes.misc}
 
-\title{
-\textbf{\Huge *Hausu* (1977): Entre el Teatro Nō,\\
-la Televisualidad Pop y el Trauma Posbélico}\\[5pt]
-\Large Un estudio cultural, histórico y computacional de una estética japonesa irrepetible
-}
+% ============================
+% 4. METADATA
+% ============================
+% Note: I removed \textbf and \Huge because style.sty 
+% now handles the font size and color automatically in the title page.
+\title{Hausu (1977): Entre el Teatro Nō, la Televisualidad Pop y el Trauma Posbélico\\ \vspace{0.5cm} \large Un estudio cultural, histórico y computacional}
+
 \author{Jorge Luis Mayorga Taborda}
 \date{\today}
 
+% ============================
+% 5. DOCUMENT CONTENT
+% ============================
 \begin{document}
-\maketitle
-\newpage
-
-\tableofcontents
-\newpage
-
-% ============================
-% CHAPTERS
-% ============================
-
-\input{chapters/ch0_abstract}
-\input{chapters/ch1_introduccion}
-\input{chapters/ch2_contexto_japones}
-\input{chapters/ch3_contexto_global}
-\input{chapters/ch4_obayashi}
-\input{chapters/ch5_fuerzas_culturales}
-\input{chapters/ch6_intercambiables}
-\input{chapters/ch7_irreproducibles}
-\input{chapters/ch8_contraejemplos}
-\input{chapters/ch9_influencias}
-\input{chapters/ch10_conclusion}
-
-\printbibliography
+	
+	% Generates the new "Hausu" graphical title page
+	\maketitle 
+	
+	% The film strip header will automatically appear from page 2 onwards
+	\newpage
+	
+	{
+		\hypersetup{linkcolor=hausuDark} % Temporarily make TOC links black for readability
+		\tableofcontents
+	}
+	\newpage
+	
+	% ============================
+	% CHAPTERS
+	% ============================
+	
+	% Tip: Use the new environments inside your chapters!
+	% \begin{popanalysis}[Title] ... \end{popanalysis}
+	% \begin{bloodnote}[Warning] ... \end{bloodnote}
+	
+	\input{chapters/ch0_abstract}
+	\input{chapters/ch1_introduccion}
+	\input{chapters/ch2_contexto_japones}
+	\input{chapters/ch3_contexto_global}
+	\input{chapters/ch4_obayashi}
+	\input{chapters/ch5_fuerzas_culturales}
+	\input{chapters/ch5_noh}
+	\input{chapters/ch6_intercambiables}
+	\input{chapters/ch7_irreproducibles}
+	\input{chapters/ch8_contraejemplos}
+	\input{chapters/ch9_influencias}
+	\input{chapters/ch10_conclusion}
+	
+	% ============================
+	% BIBLIOGRAPHY
+	% ============================
+	\newpage
+	
+	% TRUCO TEMPORAL: Fuerza que aparezca todo
+	\nocite{*} 
+	
+	\printbibliography
 
 \end{document}
