@@ -1,136 +1,223 @@
 % ==========================================================
-%  style.sty — Estilo académico cine japonés / Hausu
-%  VERSIÓN 2 (Más Artística / "Cinematographic-ish")
+%  style.sty — Estilo HAUSU (1977) / Experimental Pop-Horror
+%  VERSION 3.3: FIXED (Green Color Added)
 % ==========================================================
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{style}[2025/11/14 Japanese Film Studies Style (V2-Artistic)]
+\ProvidesPackage{style}[2025/11/19 Hausu Experimental Style]
 
 % ----------------------------------------------------------
-% Carga de paquetes
+% 1. Core Packages
 % ----------------------------------------------------------
 \RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
 \RequirePackage{lmodern}
 \RequirePackage{microtype}
 \RequirePackage{xcolor}
 \RequirePackage{titlesec}
 \RequirePackage{fancyhdr}
 \RequirePackage{etoolbox}
-\RequirePackage[most]{tcolorbox}
 \RequirePackage{hyperref}
-\RequirePackage{pgfplots} 
-\pgfplotsset{compat=1.18} % o la versión que uses
-% NEW: Paquete para iconos (como el de 'film')
 \RequirePackage{fontawesome5} 
+\RequirePackage{geometry}
+\RequirePackage{tikz}
+\usetikzlibrary{calc, shadows, patterns, decorations.pathmorphing, shapes.geometric}
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{setspace}
 
 % ----------------------------------------------------------
-% Paleta de colores (Expandida para Hausu)
+% 2. Configuration & Colors
 % ----------------------------------------------------------
-\definecolor{jpRed}{HTML}{C3002F}     % rojo vermillion
-\definecolor{jpInk}{HTML}{111111}     % negro tinta
-\definecolor{jpGray}{HTML}{4A4A4A}    % gris neutro
-\definecolor{jpGold}{HTML}{C89A3D}    % dorado suave
-\definecolor{jpSoft}{HTML}{F5F1EB}    % fondo suave
+\setstretch{1.2} 
 
-% NEW: Colores psicodélicos inspirados en Hausu
-\definecolor{hausuBlue}{HTML}{00A0B0}   % Un azul "pop"
-\definecolor{hausuGreen}{HTML}{6A994E}  % Un verde "fantasma"
+% Ajuste de cabecera
+\setlength{\headheight}{55pt} 
+\setlength{\headsep}{25pt}
 
-% Colores para hipervínculos
-\colorlet{linkblue}{hausuBlue} % NEW: Usando el azul nuevo
-\colorlet{urlblue}{jpGold}
-\colorlet{citeblue}{jpGray}
+% --- PALETA DE COLORES HAUSU ---
+\definecolor{hausuBlood}{HTML}{D90429}   % Rojo Sangre
+\definecolor{hausuOrange}{HTML}{FB8500}  % Naranja Atardecer
+\definecolor{hausuGhost}{HTML}{F4F1DE}   % Crema Hueso
+\definecolor{hausuDark}{HTML}{0D0D0D}    % Negro Profundo
+\definecolor{hausuTeal}{HTML}{219EBC}    % Turquesa Retro
+\definecolor{hausuPurple}{HTML}{7209B7}  % Morado Psicodélico
+% EL COLOR QUE FALTABA:
+\definecolor{hausuGreen}{HTML}{39FF14}   % Verde Neón (Ojos de gato / Sandía)
 
-% ... (El resto de configuraciones como 'parskip', 'parindent', 'AtBeginDocument'
-%      'titleformat', 'titlespacing', 'fancyhdr' y 'maketitle'
-%      siguen siendo las mismas que te di antes. Las omito aquí por brevedad,
-%      pero asegúrate de que sigan en tu archivo.) ...
+\hypersetup{
+	colorlinks=true,
+	linkcolor=hausuBlood,
+	urlcolor=hausuOrange,
+	citecolor=hausuPurple
+}
 
-% (Asegúrate de que esta parte de fancyhdr esté en tu archivo)
+% ----------------------------------------------------------
+% 3. Typography (Títulos controlados)
+% ----------------------------------------------------------
+\titleformat{\section}
+{\Large\bfseries\sffamily\color{hausuBlood}}
+{\thesection}{0.5em}{}
+[\titlerule]
+
+\titleformat{\subsection}
+{\large\bfseries\sffamily\color{hausuOrange}}
+{\thesubsection}{1em}{}
+
+% ----------------------------------------------------------
+% 4. Film Strip Header (Small + Top Margin)
+% ----------------------------------------------------------
 \pagestyle{fancy}
 \fancyhf{} 
-\fancyhead[L]{\sffamily\small \textcolor{jpGray}{Hausu (1977) y estética japonesa}}
-\fancyhead[R]{\sffamily\small \textcolor{jpRed}{\nouppercase{\leftmark}}}
-\fancyfoot[C]{\sffamily\small \textcolor{jpGray}{\thepage}}
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\headrule}{\hbox to\headwidth{%
-  \color{jpRed}\leaders\hrule height \headrulewidth\hfill}}
-\renewcommand{\footrulewidth}{0pt}
-\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0pt}
 
-% (Asegúrate de que esta parte de maketitle esté en tu archivo)
-\preto{\maketitle}{%
-  \thispagestyle{empty}%
-}
-\apptocmd{\maketitle}{%
-  \vspace{-1.5em}%
-  \begin{center}
-    \rule{0.4\textwidth}{0.8pt}\\[0.6em]
-    {\small\sffamily\textcolor{jpGray}{Ensayo de estudios fílmicos y cultura visual japonesa}}
-  \end{center}
-  \vspace{1em}
-}{}{}
-
-% ----------------------------------------------------------
-% Entornos personalizados (ACTUALIZADOS)
-% ----------------------------------------------------------
-
-% --- Configuración de TColorBox ---
-\tcbset{
-  fonttitle=\bfseries\sffamily,
-  sharp corners,
-}
-
-% --- 1. Cita destacada (NUEVO ESTILO) ---
-% Ahora usa tcolorbox para un "look" más gráfico
-% con una barra lateral gruesa.
-\newenvironment{jpquote}
-  {\begin{tcolorbox}[
-     colback=jpSoft,
-     colframe=jpGray,
-     boxrule=0pt, % Sin borde exterior
-     leftrule=4pt, % Barra gruesa a la izquierda
-     colbacktitle=jpSoft,
-     coltitle=jpGray,
-     fonttitle=\sffamily\itshape,
-     title={Cita destacada},
-     bottom=4pt, top=4pt, left=8pt, right=8pt,
-   ]}
-  {\end{tcolorbox}}
-
-% --- 2. Recuadro de análisis (NUEVO ESTILO) ---
-% Ahora tiene un ícono de película, un color nuevo
-% y una sombra para un efecto "pop-art".
-\newtcolorbox{filmnote}[1][Nota de Análisis]{
-  colback=jpSoft,
-  colframe=hausuBlue, % NEW: color de borde
-  coltitle=jpInk,
-  boxrule=0.8pt,
-  title={\sffamily \faFilm\space\space #1}, % NEW: ícono de película
-  % NEW: Sombra sutil
-  enhanced,
-  drop shadow=jpGray,
+\newcommand{\drawfilmstrip}{%
+	\begin{tikzpicture}[remember picture, overlay]
+		% Margen superior blanco (aprox 10px)
+		\def\topoffset{-0.35cm} 
+		
+		% Black Strip
+		\fill[hausuDark] 
+		($(current page.north west) + (0, \topoffset)$) 
+		rectangle 
+		($(current page.north east) + (0, \topoffset - 1.4cm)$);
+		
+		% Top Perforations
+		\foreach \x in {0,1,...,20} {
+			\fill[white] 
+			($(current page.north west) + (\x*1.1cm + 0.5cm, \topoffset - 0.15cm)$) 
+			rectangle ++(0.6cm, -0.25cm);
+		}
+		
+		% Bottom Perforations
+		\foreach \x in {0,1,...,20} {
+			\fill[white] 
+			($(current page.north west) + (\x*1.1cm + 0.5cm, \topoffset - 1.0cm)$) 
+			rectangle ++(0.6cm, -0.25cm);
+		}
+		
+		% Text
+		\node[text=white, font=\sffamily\bfseries\normalsize, anchor=center] 
+		at ($(current page.north) + (0, \topoffset - 0.7cm)$) {
+			HOUSE \quad \faGhost \quad \thepage \quad \faCat \quad 1977
+		};
+	\end{tikzpicture}%
 }
 
+\fancyhead[C]{\drawfilmstrip}
+\fancyfoot[C]{\small\sffamily\color{hausuDark}— \faFilm \space Estudios Visuales Japoneses —}
+
 % ----------------------------------------------------------
-% Configuración de Hipervínculos (al final)
+% 5. Boxes
 % ----------------------------------------------------------
-\hypersetup{
-    colorlinks=true,
-    linkcolor=linkblue,
-    urlcolor=urlblue,
-    citecolor=citeblue,
-    pdfauthor={Jorge Luis Mayorga Taborda}, 
-    pdftitle={Hausu (1977) - Ensayo}, 
-    pdfsubject={Estética y cultura visual del cine japonés},
-    pdfcreator={LaTeX}
+\newtcolorbox{bloodnote}[1][Nota de Horror]{
+	enhanced, colback=hausuGhost, colframe=hausuBlood,
+	fonttitle=\bfseries\sffamily\color{white}, title={#1},
+	attach boxed title to top left={yshift=-2mm, xshift=2mm},
+	boxed title style={colback=hausuBlood, sharp corners},
+	underlay={
+		\draw[hausuBlood, thick, decorate, decoration={random steps,segment length=3pt,amplitude=1pt}] 
+		(frame.south west) -- (frame.south east);
+	},
+	drop fuzzy shadow
 }
 
+\newtcolorbox{popanalysis}[1][Análisis Visual]{
+	enhanced, colback=white, colframe=hausuDark,
+	colbacktitle=hausuPurple, coltitle=white,
+	fonttitle=\bfseries\Large\sffamily, title={\faEye \space #1},
+	boxrule=2pt, borderline={2pt}{-4pt}{hausuOrange},
+	sharp corners=south, rounded corners=north, arc=5mm
+}
 
+\newenvironment{cinemaquote}
+{\begin{tcolorbox}[blanker, left=1cm, borderline west={4pt}{0pt}{hausuTeal}, fontupper=\itshape\large\color{hausuDark}]\faQuoteLeft\space}
+	{\space\faQuoteRight\end{tcolorbox}}
 
 % ----------------------------------------------------------
-% FILM STRIP HEADER / FOOTER
+% 6. Title Page: HAUSU PSYCHEDELIC POP-ART
 % ----------------------------------------------------------
-
-
-% --- Fin de style.sty ---
+\renewcommand{\maketitle}{
+	\begin{titlepage}
+		\thispagestyle{empty}
+		\begin{tikzpicture}[remember picture, overlay]
+			% 1. FONDO
+			\fill[hausuOrange] (current page.north west) rectangle ($(current page.center) + (20cm, -2cm)$);
+			\fill[hausuGhost] (current page.south west) rectangle ($(current page.center) + (20cm, -2cm)$);
+			
+			% 2. SOL
+			\node[opacity=0.2] at ($(current page.north) + (0,-6cm)$) {
+				\fontsize{300}{300}\selectfont \color{yellow} \faSun
+			};
+			
+			% 3. SANGRE SUPERIOR
+			\fill[hausuBlood] 
+			(current page.north west) -- 
+			($(current page.north west) + (0, -2cm)$) .. controls 
+			($(current page.north west) + (2cm, -4cm)$) and ($(current page.north west) + (4cm, -1cm)$) .. 
+			($(current page.north west) + (6cm, -3cm)$) .. controls 
+			($(current page.north west) + (8cm, -1cm)$) and ($(current page.north west) + (10cm, -5cm)$) .. 
+			($(current page.north) + (0, -2cm)$) .. controls 
+			($(current page.north east) + (-6cm, -4cm)$) and ($(current page.north east) + (-3cm, -1cm)$) .. 
+			($(current page.north east) + (0, -2.5cm)$) -- 
+			(current page.north east) -- cycle;
+			
+			% 4. EL GATO (Blanche)
+			\node[anchor=center] at ($(current page.center) + (0, 3cm)$) {
+				\fontsize{120}{120}\selectfont \color{hausuDark} \faCat
+			};
+			% Ojos Verdes (AQUÍ ESTABA EL ERROR ANTES)
+			\fill[hausuGreen] ($(current page.center) + (-0.8cm, 3.2cm)$) ellipse (0.4cm and 0.6cm);
+			\fill[hausuGreen] ($(current page.center) + (1.0cm, 3.2cm)$) ellipse (0.4cm and 0.6cm);
+			% Pupilas
+			\fill[black] ($(current page.center) + (-0.8cm, 3.2cm)$) ellipse (0.1cm and 0.4cm);
+			\fill[black] ($(current page.center) + (1.0cm, 3.2cm)$) ellipse (0.1cm and 0.4cm);
+			
+			% 5. EL PIANO
+			\foreach \x in {0,1,...,15} {
+				\draw[fill=white, draw=black, thick] 
+				($(current page.south west) + (\x*1.4cm, 0)$) rectangle ++(1.4cm, 4cm);
+			}
+			\foreach \x in {0,1,...,14} {
+				\ifnum\x=2 \else \ifnum\x=6 \else \ifnum\x=9 \else \ifnum\x=13 \else
+				\fill[black] ($(current page.south west) + (\x*1.4cm + 1.0cm, 1.5cm)$) rectangle ++(0.8cm, 2.5cm);
+				\fi \fi \fi \fi
+			}
+			
+			% 6. TÍTULOS
+			\node[anchor=center, align=center] at ($(current page.center) + (0, -1cm)$) {
+				\bfseries \sffamily 
+				{\fontsize{60}{70}\selectfont \color{hausuPurple} HAUSU}
+			};
+			\node[anchor=center, align=center] at ($(current page.center) + (-0.1cm, -0.9cm)$) {
+				\bfseries \sffamily 
+				{\fontsize{60}{70}\selectfont \color{white} HAUSU}
+			};
+			\node[anchor=center] at ($(current page.center) + (0, -3cm)$) {
+				\bfseries \sffamily \color{hausuDark} \LARGE (1977)
+			};
+			
+			% 7. INFO ACADÉMICA
+			\node[anchor=center, fill=hausuGhost, draw=hausuBlood, line width=2pt, 
+			inner sep=1cm, rotate=-2, drop shadow] 
+			at ($(current page.center) + (0, -7cm)$) {
+				\begin{minipage}{0.7\textwidth}
+					\centering 
+					\color{hausuDark} \bfseries \Large \@title
+					\vspace{0.5em}
+					\hrule height 1pt
+					\vspace{0.5em}
+					\small \normalfont \@author
+				\end{minipage}
+			};
+			
+			% 8. LA SANDÍA (Usa hausuGreen)
+			\fill[hausuGreen, draw=black, thick] ($(current page.south east) + (-3cm, 5cm)$) circle (1.5cm);
+			\clip ($(current page.south east) + (-3cm, 5cm)$) circle (1.5cm);
+			\foreach \i in {-2,-1,...,2} {
+				\draw[black, decorate, decoration={zigzag, amplitude=2mm, segment length=5mm}, thick] 
+				($(current page.south east) + (-3cm + \i*0.5cm, 3cm)$) -- ++(0, 4cm);
+			}
+			
+		\end{tikzpicture}
+	\end{titlepage}
+}
