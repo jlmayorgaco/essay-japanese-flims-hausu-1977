@@ -1,41 +1,72 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
-\contentsline {section}{\numberline {2}Contexto cinematográfico japonés (1965--1977)}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Crisis del sistema de estudios}{5}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Contexto cinematográfico global (1965--1977)}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Transformaciones industriales y tecnológicas}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Movimientos modernistas y contraculturales}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Géneros populares y cines de explotación}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Crisis del viejo Hollywood y emergencia del New Hollywood}{9}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}\emph {Jaws} (1975) y el nacimiento del blockbuster global}{9}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Nobuhiko Obayashi: Biografía, Obra, Vanguardias e Influencias}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Trayectoria biográfica y profesional}{10}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Infancia en Onomichi y cine amateur (1938--1960)}{10}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Del cine experimental a la publicidad televisiva (1960--1977)}{11}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Primeros largometrajes y consolidación industrial}{12}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Obra cinematográfica: ciclos y etapas}{12}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Cortometrajes experimentales (años 50 y 60)}{12}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}\emph {Hausu} (1977): síntesis de publicidad, horror y cultura pop}{13}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Cine juvenil, fantasía y el ``ciclo de Onomichi'' (años 80)}{14}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Madurez, adaptaciones literarias y exploraciones extremas (1990--2000)}{14}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}La trilogía antibélica contemporánea (2012--2017)}{15}{subsubsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.3}Temas, motivos y procedimientos formales}{15}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Tiempo, memoria y nostalgia}{15}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}El cuerpo y el espacio como superficies de inscripción}{16}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Montaje asociativo y artificialidad visible}{16}{subsubsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.4}Obayashi y las vanguardias}{16}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Recepción crítica, canonización y legado}{17}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Fuerzas culturales y mediáticas en Japón (1965--1977)}{18}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Juventud, modernización acelerada y cultura urbana}{18}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Televisión, publicidad y nuevas imágenes}{19}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Cultura pop, manga y estética híbrida}{20}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Movimientos artísticos y vanguardias japonesas}{20}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}El trauma bélico y la memoria generacional}{21}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Síntesis: fuerzas culturales que confluyen en \emph {Hausu}}{21}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Conclusión}{22}{subsection.5.7}%
-\contentsline {section}{\numberline {6}Influencia del Noh}{22}{section.6}%
-\contentsline {section}{\numberline {7}Que partes de Hausus son Intercambiables con otras peliculas de la epoca tanto Japon como mundial}{22}{section.7}%
-\contentsline {section}{\numberline {8}Que partes de Hausus son Irreproducibles con otras peliculas de la epoca tanto Japon como mundial}{23}{section.8}%
-\contentsline {section}{\numberline {9}Contra-ejemplos}{23}{section.9}%
-\contentsline {section}{\numberline {10}Que influencio Hausu, legado}{23}{section.10}%
-\contentsline {section}{\numberline {11}Conclusiones}{23}{section.11}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Contexto cinematográfico japonés (1965--1977)}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}La emergencia de estéticas híbridas y cineastas periféricos}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Panorama comercial: franquicias, blockbusters y segmentación del público}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}El lugar de \textit {Hausu} en el sistema industrial japonés}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Conclusión: un cine entre la disolución del clasicismo y la irrupción de lo pop}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Crisis estructural del sistema de estudios}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Competencia de la televisión y reconfiguración del consumo audiovisual}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Transformación de géneros: del jidaigeki al pinku eiga}{10}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Producción barata, géneros híbridos y auge del cine erótico}{10}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Un ecosistema híbrido: hacia la estética de \textit {Hausu}}{11}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Éxitos comerciales, géneros dominantes y tendencias industriales (1965--1977)}{13}{subsection.2.10}%
+\contentsline {paragraph}{1. El dominio del \textit {tokusatsu}: Godzilla, monstruos y catástrofes}{14}{paragraph*.1}%
+\contentsline {paragraph}{2. El auge del cine juvenil y las \enquote {Nikkatsu Action Films}}{14}{paragraph*.2}%
+\contentsline {paragraph}{3. Boom del cine erótico comercial: \textit {Pinku Eiga} y \textit {Roman Porno}}{15}{paragraph*.3}%
+\contentsline {paragraph}{4. Cine familiar y franquicias longevas: \textit {Tora-san}}{15}{paragraph*.4}%
+\contentsline {paragraph}{5. Animación, \textit {anime} y blockbusters extranjeros}{17}{paragraph*.5}%
+\contentsline {section}{\numberline {3}Contexto cinematográfico global (1965--1977)}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Transformaciones industriales y tecnológicas}{18}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Movimientos modernistas y contraculturales}{19}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Géneros populares y cines de explotación}{20}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Crisis del viejo Hollywood y emergencia del New Hollywood}{20}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}\emph {Jaws} (1975) y el nacimiento del blockbuster global}{21}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Nobuhiko Obayashi: Biografía, Obra, Vanguardias e Influencias}{22}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Trayectoria biográfica y profesional}{23}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Infancia en Onomichi y cine amateur (1938--1960)}{23}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Del cine experimental a la publicidad televisiva (1960--1977)}{24}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Primeros largometrajes y consolidación industrial}{24}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Obra cinematográfica: ciclos y etapas}{25}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Cortometrajes experimentales (años 50 y 60)}{25}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}\emph {Hausu} (1977): síntesis de publicidad, horror y cultura pop}{25}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Cine juvenil, fantasía y el ``ciclo de Onomichi'' (años 80)}{26}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Madurez, adaptaciones literarias y exploraciones extremas (1990--2000)}{27}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}La trilogía antibélica contemporánea (2012--2017)}{27}{subsubsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.3}Temas, motivos y procedimientos formales}{27}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Tiempo, memoria y nostalgia}{27}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}El cuerpo y el espacio como superficies de inscripción}{28}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Montaje asociativo y artificialidad visible}{28}{subsubsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.4}Obayashi y las vanguardias}{29}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Recepción crítica, canonización y legado}{29}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Fuerzas culturales y mediáticas en Japón (1965--1977)}{30}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Juventud, modernización acelerada y cultura urbana}{31}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Televisión, publicidad y nuevas imágenes}{33}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Cultura pop, manga y estética híbrida}{34}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Movimientos artísticos y vanguardias japonesas}{36}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}El trauma bélico y la memoria generacional}{37}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Síntesis: fuerzas culturales que confluyen en \emph {Hausu}}{39}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Conclusión}{40}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Influencia del Noh}{41}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Espacio liminar y tiempo suspendido}{42}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Máscara, rostro y estilización del cuerpo}{43}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Lo femenino espectral: de la dama del Noh a la tía de \textit {Hausu}}{43}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Ritual, repetición y publicidad}{44}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Qué partes de \textit {Hausu} son intercambiables con otras películas de la época (Japón y circuito global)}{45}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Estructura narrativa y dispositivos de género: del \textit {haunted house} al \textit {teen horror}}{45}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Economía de explotación, cine de medianoche y marketing sinérgico}{47}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Motivos fantasmales intercambiables: del \textit {kaidan} japonés al gótico global}{48}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Lo irreductible de \textit {Hausu}: montaje publicitario, imaginación infantil y exceso pop}{48}{subsection.7.4}%
+\contentsline {paragraph}{a) Visualidad pop-psicodélica y bricolaje mediático.}{49}{paragraph*.6}%
+\contentsline {paragraph}{b) Colaboración con la mirada infantil.}{49}{paragraph*.7}%
+\contentsline {paragraph}{c) Articulación específica entre trauma bélico y cultura pop.}{49}{paragraph*.8}%
+\contentsline {subsection}{\numberline {7.5}Conclusión: modularidad genérica y singularidad autoral}{50}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Que partes de Hausus son Irreproducibles con otras peliculas de la epoca tanto Japon como mundial}{50}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Imaginación infantil como dispositivo estructural}{51}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Lenguaje publicitario y experimental trasplantado sin filtro}{52}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Articulación singular de memoria bélica, feminidad y cultura pop}{53}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Posición histórica única: entre fracaso industrial y culto global}{54}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Síntesis}{55}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Contra-ejemplos}{55}{section.9}%
+\contentsline {section}{\numberline {10}Que influencio Hausu, legado}{56}{section.10}%
+\contentsline {section}{\numberline {11}Conclusiones}{56}{section.11}%

@@ -1,0 +1,1796 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{AndersonRichie1982}{book}{}
+      \name{author}{2}{}{%
+        {{hash=076a00fb2a855c8d933f06037b5c5d25}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Joseph\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ecf5c394307b78265ade38b707833307}{%
+           family={Richie},
+           familyi={R\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b153981040b7d674303c906357475466}
+      \strng{fullhash}{b153981040b7d674303c906357475466}
+      \strng{bibnamehash}{b153981040b7d674303c906357475466}
+      \strng{authorbibnamehash}{b153981040b7d674303c906357475466}
+      \strng{authornamehash}{b153981040b7d674303c906357475466}
+      \strng{authorfullhash}{b153981040b7d674303c906357475466}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Expanded Edition}
+      \field{title}{The Japanese Film: Art and Industry}
+      \field{year}{1982}
+    \endentry
+    \entry{Desser1988}{book}{}
+      \name{author}{1}{}{%
+        {{hash=528430a70fef78917aaa6fd484b61185}{%
+           family={Desser},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{528430a70fef78917aaa6fd484b61185}
+      \strng{fullhash}{528430a70fef78917aaa6fd484b61185}
+      \strng{bibnamehash}{528430a70fef78917aaa6fd484b61185}
+      \strng{authorbibnamehash}{528430a70fef78917aaa6fd484b61185}
+      \strng{authornamehash}{528430a70fef78917aaa6fd484b61185}
+      \strng{authorfullhash}{528430a70fef78917aaa6fd484b61185}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eros Plus Massacre: An Introduction to the Japanese New Wave Cinema}
+      \field{year}{1988}
+    \endentry
+    \entry{Rayns1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dba32e70031cfc98035ebe927813b22e}{%
+           family={Rayns},
+           familyi={R\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {I.B. Tauris}%
+      }
+      \strng{namehash}{dba32e70031cfc98035ebe927813b22e}
+      \strng{fullhash}{dba32e70031cfc98035ebe927813b22e}
+      \strng{bibnamehash}{dba32e70031cfc98035ebe927813b22e}
+      \strng{authorbibnamehash}{dba32e70031cfc98035ebe927813b22e}
+      \strng{authornamehash}{dba32e70031cfc98035ebe927813b22e}
+      \strng{authorfullhash}{dba32e70031cfc98035ebe927813b22e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Outlaw Masters of Japanese Film}
+      \field{year}{1999}
+    \endentry
+    \entry{EirenStats}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=df0e5780170c70a5d9cd4af4d9e20e0e}{%
+           family={{Motion Picture Producers Association of Japan}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{df0e5780170c70a5d9cd4af4d9e20e0e}
+      \strng{fullhash}{df0e5780170c70a5d9cd4af4d9e20e0e}
+      \strng{bibnamehash}{df0e5780170c70a5d9cd4af4d9e20e0e}
+      \strng{authorbibnamehash}{df0e5780170c70a5d9cd4af4d9e20e0e}
+      \strng{authornamehash}{df0e5780170c70a5d9cd4af4d9e20e0e}
+      \strng{authorfullhash}{df0e5780170c70a5d9cd4af4d9e20e0e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible en línea: \url{http://www.eiren.org/statistics_e/index.html}}
+      \field{title}{Statistics of Film Industry in Japan}
+      \field{year}{2022}
+    \endentry
+    \entry{Andrews2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4730d34674d89caf08eba199a48e8dc1}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Hurst Publishers}%
+      }
+      \strng{namehash}{4730d34674d89caf08eba199a48e8dc1}
+      \strng{fullhash}{4730d34674d89caf08eba199a48e8dc1}
+      \strng{bibnamehash}{4730d34674d89caf08eba199a48e8dc1}
+      \strng{authorbibnamehash}{4730d34674d89caf08eba199a48e8dc1}
+      \strng{authornamehash}{4730d34674d89caf08eba199a48e8dc1}
+      \strng{authorfullhash}{4730d34674d89caf08eba199a48e8dc1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dissenting Japan: A History of Japanese Radicalism and Counterculture from 1945 to Fukushima}
+      \field{year}{2016}
+    \endentry
+    \entry{Yoshimi2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=78ae827dffdc54b6b7b15da167e4a745}{%
+           family={Yoshimi},
+           familyi={Y\bibinitperiod},
+           given={Shunya},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Durham}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{78ae827dffdc54b6b7b15da167e4a745}
+      \strng{fullhash}{78ae827dffdc54b6b7b15da167e4a745}
+      \strng{bibnamehash}{78ae827dffdc54b6b7b15da167e4a745}
+      \strng{authorbibnamehash}{78ae827dffdc54b6b7b15da167e4a745}
+      \strng{authornamehash}{78ae827dffdc54b6b7b15da167e4a745}
+      \strng{authorfullhash}{78ae827dffdc54b6b7b15da167e4a745}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Culture of the Copy in Japan: Television, Media, and Everyday Life}
+      \field{year}{2010}
+    \endentry
+    \entry{StandardLivingJapan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1752535bcfe00d96842afea79330a18f}{%
+           family={Living\bibnamedelimb Study\bibnamedelima Group},
+           familyi={L\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Japan\bibnamedelima Standard},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Tokyo}%
+      }
+      \list{publisher}{1}{%
+        {University of Tokyo Press}%
+      }
+      \strng{namehash}{1752535bcfe00d96842afea79330a18f}
+      \strng{fullhash}{1752535bcfe00d96842afea79330a18f}
+      \strng{bibnamehash}{1752535bcfe00d96842afea79330a18f}
+      \strng{authorbibnamehash}{1752535bcfe00d96842afea79330a18f}
+      \strng{authornamehash}{1752535bcfe00d96842afea79330a18f}
+      \strng{authorfullhash}{1752535bcfe00d96842afea79330a18f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Standard of Living in Japan: Historical Statistics}
+      \field{year}{1978}
+    \endentry
+    \entry{TVPenetrationGraph}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9f1b76efb41675fc2368bdb1ccdf07ed}{%
+           family={{Wikimedia Commons Contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f1b76efb41675fc2368bdb1ccdf07ed}
+      \strng{fullhash}{9f1b76efb41675fc2368bdb1ccdf07ed}
+      \strng{bibnamehash}{9f1b76efb41675fc2368bdb1ccdf07ed}
+      \strng{authorbibnamehash}{9f1b76efb41675fc2368bdb1ccdf07ed}
+      \strng{authornamehash}{9f1b76efb41675fc2368bdb1ccdf07ed}
+      \strng{authorfullhash}{9f1b76efb41675fc2368bdb1ccdf07ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online image}
+      \field{note}{Based on data from Japan Statistics Bureau and NHK Broadcasting Culture Research Institute}
+      \field{title}{Television penetration rate in Japan (1957--2015)}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Japan_Television_Penetration_1957-2015.svg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Japan_Television_Penetration_1957-2015.svg
+      \endverb
+    \endentry
+    \entry{Weisser1998}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0b98ba605b7cffa05539ec511af92163}{%
+           family={Weisser},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e7dc4c36b74dbf00d7669fe3af0e7348}{%
+           family={Weisser},
+           familyi={W\bibinitperiod},
+           given={Yuko\bibnamedelima Mihara},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vital Books}%
+      }
+      \strng{namehash}{30e37f257227e06986cfc920871c0589}
+      \strng{fullhash}{30e37f257227e06986cfc920871c0589}
+      \strng{bibnamehash}{30e37f257227e06986cfc920871c0589}
+      \strng{authorbibnamehash}{30e37f257227e06986cfc920871c0589}
+      \strng{authornamehash}{30e37f257227e06986cfc920871c0589}
+      \strng{authorfullhash}{30e37f257227e06986cfc920871c0589}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Japanese Cinema Encyclopedia: The Sex Films}
+      \field{year}{1998}
+    \endentry
+    \entry{Sharp2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=73ee4194aa380170ef01400c5d02f377}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FAB Press}%
+      }
+      \strng{namehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{fullhash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{bibnamehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{authorbibnamehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{authornamehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{authorfullhash}{73ee4194aa380170ef01400c5d02f377}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Behind the Pink Curtain: The Complete History of Japanese Erotic Cinema}
+      \field{year}{2011}
+    \endentry
+    \entry{Zahlten2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=88727e48c61dc4375c9a377e38169a18}{%
+           family={Zahlten},
+           familyi={Z\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{88727e48c61dc4375c9a377e38169a18}
+      \strng{fullhash}{88727e48c61dc4375c9a377e38169a18}
+      \strng{bibnamehash}{88727e48c61dc4375c9a377e38169a18}
+      \strng{authorbibnamehash}{88727e48c61dc4375c9a377e38169a18}
+      \strng{authornamehash}{88727e48c61dc4375c9a377e38169a18}
+      \strng{authorfullhash}{88727e48c61dc4375c9a377e38169a18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The End of Japanese Cinema: Industrial Genres, National Times}
+      \field{year}{2017}
+    \endentry
+    \entry{Standish2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e24b26ce3958c61728e58695a2b4b44}{%
+           family={Standish},
+           familyi={S\bibinitperiod},
+           given={Isolde},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Continuum}%
+      }
+      \strng{namehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{fullhash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{bibnamehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{authorbibnamehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{authornamehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{authorfullhash}{2e24b26ce3958c61728e58695a2b4b44}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Politics, Porn and Protest: Japanese Avant-Garde Cinema 1960–1980}
+      \field{year}{2011}
+    \endentry
+    \entry{Richie1990}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ecf5c394307b78265ade38b707833307}{%
+           family={Richie},
+           familyi={R\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Kodansha International}%
+      }
+      \strng{namehash}{ecf5c394307b78265ade38b707833307}
+      \strng{fullhash}{ecf5c394307b78265ade38b707833307}
+      \strng{bibnamehash}{ecf5c394307b78265ade38b707833307}
+      \strng{authorbibnamehash}{ecf5c394307b78265ade38b707833307}
+      \strng{authornamehash}{ecf5c394307b78265ade38b707833307}
+      \strng{authorfullhash}{ecf5c394307b78265ade38b707833307}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Hundred Years of Japanese Film}
+      \field{year}{1990}
+    \endentry
+    \entry{RyfleGodzilla2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=29003c532e617bde0eb2ecad85ebf370}{%
+           family={Ryfle},
+           familyi={R\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ECW Press}%
+      }
+      \strng{namehash}{29003c532e617bde0eb2ecad85ebf370}
+      \strng{fullhash}{29003c532e617bde0eb2ecad85ebf370}
+      \strng{bibnamehash}{29003c532e617bde0eb2ecad85ebf370}
+      \strng{authorbibnamehash}{29003c532e617bde0eb2ecad85ebf370}
+      \strng{authornamehash}{29003c532e617bde0eb2ecad85ebf370}
+      \strng{authorfullhash}{29003c532e617bde0eb2ecad85ebf370}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Japan's Favorite Mon-Star: The Unauthorized Biography of the Big G}
+      \field{year}{2000}
+    \endentry
+    \entry{Cavallaro2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=20c634a4cbe582419cccd6a67b249dc1}{%
+           family={Cavallaro},
+           familyi={C\bibinitperiod},
+           given={Dani},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McFarland}%
+      }
+      \strng{namehash}{20c634a4cbe582419cccd6a67b249dc1}
+      \strng{fullhash}{20c634a4cbe582419cccd6a67b249dc1}
+      \strng{bibnamehash}{20c634a4cbe582419cccd6a67b249dc1}
+      \strng{authorbibnamehash}{20c634a4cbe582419cccd6a67b249dc1}
+      \strng{authornamehash}{20c634a4cbe582419cccd6a67b249dc1}
+      \strng{authorfullhash}{20c634a4cbe582419cccd6a67b249dc1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Anime Art of Hayao Miyazaki}
+      \field{year}{2010}
+    \endentry
+    \entry{NowellSmith1996}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=f14dcbc24c12c9712bbe9c1e50de64e8}{%
+           family={Nowell-Smith},
+           familyi={N\bibinithyphendelim S\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f14dcbc24c12c9712bbe9c1e50de64e8}
+      \strng{fullhash}{f14dcbc24c12c9712bbe9c1e50de64e8}
+      \strng{bibnamehash}{f14dcbc24c12c9712bbe9c1e50de64e8}
+      \strng{editorbibnamehash}{f14dcbc24c12c9712bbe9c1e50de64e8}
+      \strng{editornamehash}{f14dcbc24c12c9712bbe9c1e50de64e8}
+      \strng{editorfullhash}{f14dcbc24c12c9712bbe9c1e50de64e8}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{The Oxford History of World Cinema}
+      \field{year}{1996}
+    \endentry
+    \entry{Cook2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=516cf52af5a23f2282bf2b62875f49c6}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton \& Company}%
+      }
+      \strng{namehash}{516cf52af5a23f2282bf2b62875f49c6}
+      \strng{fullhash}{516cf52af5a23f2282bf2b62875f49c6}
+      \strng{bibnamehash}{516cf52af5a23f2282bf2b62875f49c6}
+      \strng{authorbibnamehash}{516cf52af5a23f2282bf2b62875f49c6}
+      \strng{authornamehash}{516cf52af5a23f2282bf2b62875f49c6}
+      \strng{authorfullhash}{516cf52af5a23f2282bf2b62875f49c6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A History of Narrative Film}
+      \field{year}{2007}
+    \endentry
+    \entry{Gomery1992}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bf2882dc67931a30e7bf654069b3ea1e}{%
+           family={Gomery},
+           familyi={G\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Wisconsin Press}%
+      }
+      \strng{namehash}{bf2882dc67931a30e7bf654069b3ea1e}
+      \strng{fullhash}{bf2882dc67931a30e7bf654069b3ea1e}
+      \strng{bibnamehash}{bf2882dc67931a30e7bf654069b3ea1e}
+      \strng{authorbibnamehash}{bf2882dc67931a30e7bf654069b3ea1e}
+      \strng{authornamehash}{bf2882dc67931a30e7bf654069b3ea1e}
+      \strng{authorfullhash}{bf2882dc67931a30e7bf654069b3ea1e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shared Pleasures: A History of Movie Presentation in the United States}
+      \field{year}{1992}
+    \endentry
+    \entry{Harper2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a0ffc6287870ecffabc6265862d3eec4}{%
+           family={Harper},
+           familyi={H\bibinitperiod},
+           given={Sue},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0a04ce6460d772d9720f956992e36e19}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c4a4e0f97fdf958c8a1d4b43ed8762d6}
+      \strng{fullhash}{c4a4e0f97fdf958c8a1d4b43ed8762d6}
+      \strng{bibnamehash}{c4a4e0f97fdf958c8a1d4b43ed8762d6}
+      \strng{authorbibnamehash}{c4a4e0f97fdf958c8a1d4b43ed8762d6}
+      \strng{authornamehash}{c4a4e0f97fdf958c8a1d4b43ed8762d6}
+      \strng{authorfullhash}{c4a4e0f97fdf958c8a1d4b43ed8762d6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{British Cinema of the 1950s: The Decline of Deference}
+      \field{year}{2007}
+    \endentry
+    \entry{Hutchings2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3bbe727ad0bded2e9de97d3abf668529}{%
+           family={Hutchings},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Longman}%
+      }
+      \strng{namehash}{3bbe727ad0bded2e9de97d3abf668529}
+      \strng{fullhash}{3bbe727ad0bded2e9de97d3abf668529}
+      \strng{bibnamehash}{3bbe727ad0bded2e9de97d3abf668529}
+      \strng{authorbibnamehash}{3bbe727ad0bded2e9de97d3abf668529}
+      \strng{authornamehash}{3bbe727ad0bded2e9de97d3abf668529}
+      \strng{authorfullhash}{3bbe727ad0bded2e9de97d3abf668529}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Horror Film}
+      \field{year}{2004}
+    \endentry
+    \entry{Elsaesser1989}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5c36cdd1c6e87c92fe41ae8c87d6dba9}{%
+           family={Elsaesser},
+           familyi={E\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rutgers University Press}%
+      }
+      \strng{namehash}{5c36cdd1c6e87c92fe41ae8c87d6dba9}
+      \strng{fullhash}{5c36cdd1c6e87c92fe41ae8c87d6dba9}
+      \strng{bibnamehash}{5c36cdd1c6e87c92fe41ae8c87d6dba9}
+      \strng{authorbibnamehash}{5c36cdd1c6e87c92fe41ae8c87d6dba9}
+      \strng{authornamehash}{5c36cdd1c6e87c92fe41ae8c87d6dba9}
+      \strng{authorfullhash}{5c36cdd1c6e87c92fe41ae8c87d6dba9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{New German Cinema: A History}
+      \field{year}{1989}
+    \endentry
+    \entry{Wyatt1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec5610d8355417fc03f427e836343789}{%
+           family={Wyatt},
+           familyi={W\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Texas Press}%
+      }
+      \strng{namehash}{ec5610d8355417fc03f427e836343789}
+      \strng{fullhash}{ec5610d8355417fc03f427e836343789}
+      \strng{bibnamehash}{ec5610d8355417fc03f427e836343789}
+      \strng{authorbibnamehash}{ec5610d8355417fc03f427e836343789}
+      \strng{authornamehash}{ec5610d8355417fc03f427e836343789}
+      \strng{authorfullhash}{ec5610d8355417fc03f427e836343789}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{High Concept: Movies and Marketing in Hollywood}
+      \field{year}{1994}
+    \endentry
+    \entry{Prince2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4558ec592dfc649621261203b6529575}{%
+           family={Prince},
+           familyi={P\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{4558ec592dfc649621261203b6529575}
+      \strng{fullhash}{4558ec592dfc649621261203b6529575}
+      \strng{bibnamehash}{4558ec592dfc649621261203b6529575}
+      \strng{authorbibnamehash}{4558ec592dfc649621261203b6529575}
+      \strng{authornamehash}{4558ec592dfc649621261203b6529575}
+      \strng{authorfullhash}{4558ec592dfc649621261203b6529575}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A New Pot of Gold: Hollywood Under the Electronic Rainbow, 1980–1989}
+      \field{year}{2000}
+    \endentry
+    \entry{ObayashiSenses2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=972f3f490166f0659f2033ab75ccc632}{%
+           family={Cinema},
+           familyi={C\bibinitperiod},
+           given={Senses},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{972f3f490166f0659f2033ab75ccc632}
+      \strng{fullhash}{972f3f490166f0659f2033ab75ccc632}
+      \strng{bibnamehash}{972f3f490166f0659f2033ab75ccc632}
+      \strng{authorbibnamehash}{972f3f490166f0659f2033ab75ccc632}
+      \strng{authornamehash}{972f3f490166f0659f2033ab75ccc632}
+      \strng{authorfullhash}{972f3f490166f0659f2033ab75ccc632}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nobuhiko Obayashi: Great Directors Profile}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://sensesofcinema.com/2021/great-directors/nobuhiko-obayashi/
+      \endverb
+      \verb{url}
+      \verb http://sensesofcinema.com/2021/great-directors/nobuhiko-obayashi/
+      \endverb
+    \endentry
+    \entry{CriterionObayashi2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8ae9c38f0036c4a1b304906543bda40a}{%
+           family={Collection},
+           familyi={C\bibinitperiod},
+           given={Criterion},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{fullhash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{bibnamehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{authorbibnamehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{authornamehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{authorfullhash}{8ae9c38f0036c4a1b304906543bda40a}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Blu-ray liner notes}
+      \field{title}{Obayashi’s Anti-War Trilogy}
+      \field{year}{2020}
+    \endentry
+    \entry{Complexe1964}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=776049ff62e51fc78556a54aa7fe9ab2}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Nobuhiko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{fullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{bibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorbibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authornamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorfullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Experimental Short}
+      \field{title}{Complexe (Film)}
+      \field{year}{1964}
+    \endentry
+    \entry{Emotion1966}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=776049ff62e51fc78556a54aa7fe9ab2}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Nobuhiko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{fullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{bibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorbibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authornamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorfullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Experimental Short}
+      \field{title}{Émotion (Film)}
+      \field{year}{1966}
+    \endentry
+    \entry{MesMidnightEye2009}{online}{}
+      \name{author}{1}{}{%
+        {{hash=746915cc8e8105bd7b88886c709f3909}{%
+           family={Mes},
+           familyi={M\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{fullhash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{bibnamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authorbibnamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authornamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authorfullhash}{746915cc8e8105bd7b88886c709f3909}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Interview with Nobuhiko Obayashi}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://www.midnighteye.com/interviews/nobuhiko-obayashi/
+      \endverb
+      \verb{url}
+      \verb http://www.midnighteye.com/interviews/nobuhiko-obayashi/
+      \endverb
+    \endentry
+    \entry{House1977}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=776049ff62e51fc78556a54aa7fe9ab2}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Nobuhiko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{fullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{bibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorbibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authornamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorfullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \field{extraname}{3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Toho Studios}
+      \field{title}{Hausu (House)}
+      \field{year}{1977}
+    \endentry
+    \entry{HeartOfWeirdness2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c2e737ba5a6f4b1b60f8a1d25ac8e14a}{%
+           family={Roquet},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cinefiles Press}%
+      }
+      \strng{namehash}{c2e737ba5a6f4b1b60f8a1d25ac8e14a}
+      \strng{fullhash}{c2e737ba5a6f4b1b60f8a1d25ac8e14a}
+      \strng{bibnamehash}{c2e737ba5a6f4b1b60f8a1d25ac8e14a}
+      \strng{authorbibnamehash}{c2e737ba5a6f4b1b60f8a1d25ac8e14a}
+      \strng{authornamehash}{c2e737ba5a6f4b1b60f8a1d25ac8e14a}
+      \strng{authorfullhash}{c2e737ba5a6f4b1b60f8a1d25ac8e14a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Heart of Weirdness: Obayashi's Hausu}
+      \field{year}{2018}
+    \endentry
+    \entry{BeyondHouse2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e53d6bfad45caeba61c11bae58f8c6d9}{%
+           family={Gerow},
+           familyi={G\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{fullhash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{bibnamehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{authorbibnamehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{authornamehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{authorfullhash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Film Comment}
+      \field{number}{3}
+      \field{title}{Beyond House: The Experimental Pop of Obayashi}
+      \field{volume}{56}
+      \field{year}{2020}
+    \endentry
+    \entry{Hanagatami2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=776049ff62e51fc78556a54aa7fe9ab2}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Nobuhiko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{fullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{bibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorbibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authornamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorfullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \field{extraname}{4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Film}
+      \field{title}{Hanagatami}
+      \field{year}{2017}
+    \endentry
+    \entry{WarTrilogyReview2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sight \& Sound}
+      \field{title}{Reviews of Obayashi's War Trilogy}
+      \field{year}{2021}
+    \endentry
+    \entry{LarkWarTrilogy}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=87302c503e07c5e2b565b81ac4687a2c}{%
+           family={Lark},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{87302c503e07c5e2b565b81ac4687a2c}
+      \strng{fullhash}{87302c503e07c5e2b565b81ac4687a2c}
+      \strng{bibnamehash}{87302c503e07c5e2b565b81ac4687a2c}
+      \strng{authorbibnamehash}{87302c503e07c5e2b565b81ac4687a2c}
+      \strng{authornamehash}{87302c503e07c5e2b565b81ac4687a2c}
+      \strng{authorfullhash}{87302c503e07c5e2b565b81ac4687a2c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The War Trilogy Analysis}
+      \field{year}{2020}
+    \endentry
+    \entry{LATimesWarTrilogy2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=72b79762f8a28add3b1e43b577bb01f0}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{72b79762f8a28add3b1e43b577bb01f0}
+      \strng{fullhash}{72b79762f8a28add3b1e43b577bb01f0}
+      \strng{bibnamehash}{72b79762f8a28add3b1e43b577bb01f0}
+      \strng{authorbibnamehash}{72b79762f8a28add3b1e43b577bb01f0}
+      \strng{authornamehash}{72b79762f8a28add3b1e43b577bb01f0}
+      \strng{authorfullhash}{72b79762f8a28add3b1e43b577bb01f0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LA Times}
+      \field{title}{Obayashi's Final Films}
+      \field{year}{2021}
+    \endentry
+    \entry{LWLiesWarTrilogy}{online}{}
+      \name{author}{1}{}{%
+        {{hash=642b986ba0c002fb216938b8100d1728}{%
+           family={Lies},
+           familyi={L\bibinitperiod},
+           given={Little\bibnamedelima White},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{642b986ba0c002fb216938b8100d1728}
+      \strng{fullhash}{642b986ba0c002fb216938b8100d1728}
+      \strng{bibnamehash}{642b986ba0c002fb216938b8100d1728}
+      \strng{authorbibnamehash}{642b986ba0c002fb216938b8100d1728}
+      \strng{authornamehash}{642b986ba0c002fb216938b8100d1728}
+      \strng{authorfullhash}{642b986ba0c002fb216938b8100d1728}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Anti-War Films of Obayashi}
+      \field{year}{2020}
+    \endentry
+    \entry{MidnightEyeGuide2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=746915cc8e8105bd7b88886c709f3909}{%
+           family={Mes},
+           familyi={M\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73ee4194aa380170ef01400c5d02f377}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stone Bridge Press}%
+      }
+      \strng{namehash}{933f20b8d4b0f002275210ed544412fb}
+      \strng{fullhash}{933f20b8d4b0f002275210ed544412fb}
+      \strng{bibnamehash}{933f20b8d4b0f002275210ed544412fb}
+      \strng{authorbibnamehash}{933f20b8d4b0f002275210ed544412fb}
+      \strng{authornamehash}{933f20b8d4b0f002275210ed544412fb}
+      \strng{authorfullhash}{933f20b8d4b0f002275210ed544412fb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Midnight Eye Guide to New Japanese Film}
+      \field{year}{2004}
+    \endentry
+    \entry{Shamoon2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4cc085ddd7de120cd490aaa442a31b58}{%
+           family={Shamoon},
+           familyi={S\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Hawaii Press}%
+      }
+      \strng{namehash}{4cc085ddd7de120cd490aaa442a31b58}
+      \strng{fullhash}{4cc085ddd7de120cd490aaa442a31b58}
+      \strng{bibnamehash}{4cc085ddd7de120cd490aaa442a31b58}
+      \strng{authorbibnamehash}{4cc085ddd7de120cd490aaa442a31b58}
+      \strng{authornamehash}{4cc085ddd7de120cd490aaa442a31b58}
+      \strng{authorfullhash}{4cc085ddd7de120cd490aaa442a31b58}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Passionate Friendship: The Aesthetics of Girls' Culture in Japan}
+      \field{year}{2012}
+    \endentry
+    \entry{TelevisionJapanStats}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b166b0817196edf9df069192abfe92f5}{%
+           family={Institute},
+           familyi={I\bibinitperiod},
+           given={NHK\bibnamedelimb Broadcasting\bibnamedelimb Culture\bibnamedelima Research},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b166b0817196edf9df069192abfe92f5}
+      \strng{fullhash}{b166b0817196edf9df069192abfe92f5}
+      \strng{bibnamehash}{b166b0817196edf9df069192abfe92f5}
+      \strng{authorbibnamehash}{b166b0817196edf9df069192abfe92f5}
+      \strng{authornamehash}{b166b0817196edf9df069192abfe92f5}
+      \strng{authorfullhash}{b166b0817196edf9df069192abfe92f5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{History of Television in Japan: Statistics 1950-2000}
+      \field{year}{2010}
+    \endentry
+    \entry{Mes2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=746915cc8e8105bd7b88886c709f3909}{%
+           family={Mes},
+           familyi={M\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{fullhash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{bibnamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authorbibnamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authornamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authorfullhash}{746915cc8e8105bd7b88886c709f3909}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Midnight Eye}
+      \field{title}{Obayashi and the TV Commercial Aesthetic}
+      \field{year}{2009}
+    \endentry
+    \entry{Gerow2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e53d6bfad45caeba61c11bae58f8c6d9}{%
+           family={Gerow},
+           familyi={G\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{fullhash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{bibnamehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{authorbibnamehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{authornamehash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \strng{authorfullhash}{e53d6bfad45caeba61c11bae58f8c6d9}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visions of Japanese Modernity: Art, Cinema, and Nation}
+      \field{year}{2010}
+    \endentry
+    \entry{McRoy2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cca48ac8caed60dcba32205f827d652c}{%
+           family={McRoy},
+           familyi={M\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rodopi}%
+      }
+      \strng{namehash}{cca48ac8caed60dcba32205f827d652c}
+      \strng{fullhash}{cca48ac8caed60dcba32205f827d652c}
+      \strng{bibnamehash}{cca48ac8caed60dcba32205f827d652c}
+      \strng{authorbibnamehash}{cca48ac8caed60dcba32205f827d652c}
+      \strng{authornamehash}{cca48ac8caed60dcba32205f827d652c}
+      \strng{authorfullhash}{cca48ac8caed60dcba32205f827d652c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nightmare Japan: Contemporary Japanese Horror Cinema}
+      \field{year}{2008}
+    \endentry
+    \entry{standish2006newhistory}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e24b26ce3958c61728e58695a2b4b44}{%
+           family={Standish},
+           familyi={S\bibinitperiod},
+           given={Isolde},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Continuum}%
+      }
+      \strng{namehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{fullhash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{bibnamehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{authorbibnamehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{authornamehash}{2e24b26ce3958c61728e58695a2b4b44}
+      \strng{authorfullhash}{2e24b26ce3958c61728e58695a2b4b44}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A New History of Japanese Cinema: A Century of Narrative Film}
+      \field{year}{2006}
+      \true{nocite}
+    \endentry
+    \entry{anderson1982japanesefilm}{book}{}
+      \name{author}{2}{}{%
+        {{hash=076a00fb2a855c8d933f06037b5c5d25}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Joseph\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ecf5c394307b78265ade38b707833307}{%
+           family={Richie},
+           familyi={R\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b153981040b7d674303c906357475466}
+      \strng{fullhash}{b153981040b7d674303c906357475466}
+      \strng{bibnamehash}{b153981040b7d674303c906357475466}
+      \strng{authorbibnamehash}{b153981040b7d674303c906357475466}
+      \strng{authornamehash}{b153981040b7d674303c906357475466}
+      \strng{authorfullhash}{b153981040b7d674303c906357475466}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Japanese Film: Art and Industry}
+      \field{year}{1982}
+      \true{nocite}
+    \endentry
+    \entry{sharp2011pink}{book}{}
+      \name{author}{1}{}{%
+        {{hash=73ee4194aa380170ef01400c5d02f377}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {FAB Press}%
+      }
+      \strng{namehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{fullhash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{bibnamehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{authorbibnamehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{authornamehash}{73ee4194aa380170ef01400c5d02f377}
+      \strng{authorfullhash}{73ee4194aa380170ef01400c5d02f377}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Behind the Pink Curtain: The Complete History of Pink Eiga}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{reframingATG}{book}{}
+      \true{moreeditor}
+      \true{morelabelname}
+      \name{editor}{1}{}{%
+        {{hash=efb606a4dc72421dad0f43cd5c5a9102}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Kiju},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{d6f3a1b8be10cca383ecc252f77a8b5c}
+      \strng{fullhash}{d6f3a1b8be10cca383ecc252f77a8b5c}
+      \strng{bibnamehash}{d6f3a1b8be10cca383ecc252f77a8b5c}
+      \strng{editorbibnamehash}{d6f3a1b8be10cca383ecc252f77a8b5c}
+      \strng{editornamehash}{d6f3a1b8be10cca383ecc252f77a8b5c}
+      \strng{editorfullhash}{d6f3a1b8be10cca383ecc252f77a8b5c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Reframing Japanese Cinema: Art Theatre Guild Anthology}
+      \field{year}{2001}
+      \true{nocite}
+    \endentry
+    \entry{domenig1970sjapan}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}{%
+           family={Domenig},
+           familyi={D\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Austrian Film Museum}%
+      }
+      \strng{namehash}{e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}
+      \strng{fullhash}{e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}
+      \strng{bibnamehash}{e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}
+      \strng{authorbibnamehash}{e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}
+      \strng{authornamehash}{e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}
+      \strng{authorfullhash}{e5dcd6bfe7fe0c0fa1ca35821dc6c8e1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Japanese Cinema Revisited}
+      \field{title}{Curtains of Light: Japanese Cinema of the 1970s}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{brazell1998traditional}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=c7fab0055128deaca709f0ce39a07d6e}{%
+           family={Brazell},
+           familyi={B\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Columbia University Press}%
+      }
+      \strng{namehash}{c7fab0055128deaca709f0ce39a07d6e}
+      \strng{fullhash}{c7fab0055128deaca709f0ce39a07d6e}
+      \strng{bibnamehash}{c7fab0055128deaca709f0ce39a07d6e}
+      \strng{editorbibnamehash}{c7fab0055128deaca709f0ce39a07d6e}
+      \strng{editornamehash}{c7fab0055128deaca709f0ce39a07d6e}
+      \strng{editorfullhash}{c7fab0055128deaca709f0ce39a07d6e}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Traditional Japanese Theater: Nō, Kyōgen, Kabuki, Bunraku}
+      \field{year}{1998}
+      \true{nocite}
+    \endentry
+    \entry{fosterghosts2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cda59669e8fd7024d2f7a0ef803e1bff}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima Dylan},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{cda59669e8fd7024d2f7a0ef803e1bff}
+      \strng{fullhash}{cda59669e8fd7024d2f7a0ef803e1bff}
+      \strng{bibnamehash}{cda59669e8fd7024d2f7a0ef803e1bff}
+      \strng{authorbibnamehash}{cda59669e8fd7024d2f7a0ef803e1bff}
+      \strng{authornamehash}{cda59669e8fd7024d2f7a0ef803e1bff}
+      \strng{authorfullhash}{cda59669e8fd7024d2f7a0ef803e1bff}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Book of Yokai: Mysterious Creatures of Japanese Folklore}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{tansmanfascism2009}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a69c0ca92062fcc003a1bcae912818a1}{%
+           family={Tansman},
+           familyi={T\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{a69c0ca92062fcc003a1bcae912818a1}
+      \strng{fullhash}{a69c0ca92062fcc003a1bcae912818a1}
+      \strng{bibnamehash}{a69c0ca92062fcc003a1bcae912818a1}
+      \strng{authorbibnamehash}{a69c0ca92062fcc003a1bcae912818a1}
+      \strng{authornamehash}{a69c0ca92062fcc003a1bcae912818a1}
+      \strng{authorfullhash}{a69c0ca92062fcc003a1bcae912818a1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Culture of Japanese Fascism}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{reinhardtbrandjapan2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=03f4b799d807c4358a0f44c953df3084}{%
+           family={Reinhardt},
+           familyi={R\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{03f4b799d807c4358a0f44c953df3084}
+      \strng{fullhash}{03f4b799d807c4358a0f44c953df3084}
+      \strng{bibnamehash}{03f4b799d807c4358a0f44c953df3084}
+      \strng{authorbibnamehash}{03f4b799d807c4358a0f44c953df3084}
+      \strng{authornamehash}{03f4b799d807c4358a0f44c953df3084}
+      \strng{authorfullhash}{03f4b799d807c4358a0f44c953df3084}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brand Japan: The Marketing of a Nation}
+      \field{year}{2007}
+      \true{nocite}
+    \endentry
+    \entry{kelts2006japanamerica}{book}{}
+      \name{author}{1}{}{%
+        {{hash=57c09b544700957ae0fddf49853642fb}{%
+           family={Kelts},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan}%
+      }
+      \strng{namehash}{57c09b544700957ae0fddf49853642fb}
+      \strng{fullhash}{57c09b544700957ae0fddf49853642fb}
+      \strng{bibnamehash}{57c09b544700957ae0fddf49853642fb}
+      \strng{authorbibnamehash}{57c09b544700957ae0fddf49853642fb}
+      \strng{authornamehash}{57c09b544700957ae0fddf49853642fb}
+      \strng{authorfullhash}{57c09b544700957ae0fddf49853642fb}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Japanamerica: How Japanese Pop Culture Has Invaded the U.S.}
+      \field{year}{2006}
+      \true{nocite}
+    \endentry
+    \entry{mcveigh2000tvjapan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fc1589090e0b2bf021ca6146e810e54f}{%
+           family={McVeigh},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{fc1589090e0b2bf021ca6146e810e54f}
+      \strng{fullhash}{fc1589090e0b2bf021ca6146e810e54f}
+      \strng{bibnamehash}{fc1589090e0b2bf021ca6146e810e54f}
+      \strng{authorbibnamehash}{fc1589090e0b2bf021ca6146e810e54f}
+      \strng{authornamehash}{fc1589090e0b2bf021ca6146e810e54f}
+      \strng{authorfullhash}{fc1589090e0b2bf021ca6146e810e54f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Television in Japan: Programming, Politics, and Production}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{yano2013pinkglobalization}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1337c1c48e660971a34387dc34b2e498}{%
+           family={Yano},
+           familyi={Y\bibinitperiod},
+           given={Christine\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{1337c1c48e660971a34387dc34b2e498}
+      \strng{fullhash}{1337c1c48e660971a34387dc34b2e498}
+      \strng{bibnamehash}{1337c1c48e660971a34387dc34b2e498}
+      \strng{authorbibnamehash}{1337c1c48e660971a34387dc34b2e498}
+      \strng{authornamehash}{1337c1c48e660971a34387dc34b2e498}
+      \strng{authorfullhash}{1337c1c48e660971a34387dc34b2e498}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pink Globalization: Hello Kitty, Kawaii, and Girls}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{silverberg2009egn}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7d54e33f3b14fe76ff24f698e9499a69}{%
+           family={Silverberg},
+           familyi={S\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{7d54e33f3b14fe76ff24f698e9499a69}
+      \strng{fullhash}{7d54e33f3b14fe76ff24f698e9499a69}
+      \strng{bibnamehash}{7d54e33f3b14fe76ff24f698e9499a69}
+      \strng{authorbibnamehash}{7d54e33f3b14fe76ff24f698e9499a69}
+      \strng{authornamehash}{7d54e33f3b14fe76ff24f698e9499a69}
+      \strng{authorfullhash}{7d54e33f3b14fe76ff24f698e9499a69}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Erotic Grotesque Nonsense: The Mass Culture of Japanese Modern Times}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{lunning2010genderfilm}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=2b259343b5c502a4932bf411782a1f6e}{%
+           family={Lunning},
+           familyi={L\bibinitperiod},
+           given={Frenchy},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c7fab0055128deaca709f0ce39a07d6e}{%
+           family={Brazell},
+           familyi={B\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{5becd7e4af5686632e44d669f63c4110}
+      \strng{fullhash}{5becd7e4af5686632e44d669f63c4110}
+      \strng{bibnamehash}{5becd7e4af5686632e44d669f63c4110}
+      \strng{editorbibnamehash}{5becd7e4af5686632e44d669f63c4110}
+      \strng{editornamehash}{5becd7e4af5686632e44d669f63c4110}
+      \strng{editorfullhash}{5becd7e4af5686632e44d669f63c4110}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Gender and Japanese Film}
+      \field{year}{2010}
+      \true{nocite}
+    \endentry
+    \entry{yoneyamahiroshima1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=11778244e6fd1afd67e685f9de26a071}{%
+           family={Yoneyama},
+           familyi={Y\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{11778244e6fd1afd67e685f9de26a071}
+      \strng{fullhash}{11778244e6fd1afd67e685f9de26a071}
+      \strng{bibnamehash}{11778244e6fd1afd67e685f9de26a071}
+      \strng{authorbibnamehash}{11778244e6fd1afd67e685f9de26a071}
+      \strng{authornamehash}{11778244e6fd1afd67e685f9de26a071}
+      \strng{authorfullhash}{11778244e6fd1afd67e685f9de26a071}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hiroshima Traces: Time, Space, and the Dialectics of Memory}
+      \field{year}{1999}
+      \true{nocite}
+    \endentry
+    \entry{broderickhibakusha1996}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=34fb48b57858f254a671e26e8435c5e9}{%
+           family={Broderick},
+           familyi={B\bibinitperiod},
+           given={Mick},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{34fb48b57858f254a671e26e8435c5e9}
+      \strng{fullhash}{34fb48b57858f254a671e26e8435c5e9}
+      \strng{bibnamehash}{34fb48b57858f254a671e26e8435c5e9}
+      \strng{editorbibnamehash}{34fb48b57858f254a671e26e8435c5e9}
+      \strng{editornamehash}{34fb48b57858f254a671e26e8435c5e9}
+      \strng{editorfullhash}{34fb48b57858f254a671e26e8435c5e9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Hibakusha Cinema: Hiroshima, Nagasaki and the Nuclear Image in Japanese Film}
+      \field{year}{1996}
+      \true{nocite}
+    \endentry
+    \entry{obayashihiroshima}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=776049ff62e51fc78556a54aa7fe9ab2}{%
+           family={Obayashi},
+           familyi={O\bibinitperiod},
+           given={Nobuhiko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{fullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{bibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorbibnamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authornamehash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \strng{authorfullhash}{776049ff62e51fc78556a54aa7fe9ab2}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Interview series, Toho Studios}
+      \field{title}{From Hiroshima to Hanagatami: Interviews and Reflections}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{mes2019japan70s}{book}{}
+      \name{author}{1}{}{%
+        {{hash=746915cc8e8105bd7b88886c709f3909}{%
+           family={Mes},
+           familyi={M\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Arrow Video Publishers}%
+      }
+      \strng{namehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{fullhash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{bibnamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authorbibnamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authornamehash}{746915cc8e8105bd7b88886c709f3909}
+      \strng{authorfullhash}{746915cc8e8105bd7b88886c709f3909}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Japanese Cinema of the 1970s: Horror, Eros, and Youth}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{russell2012experimentalfilm}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e327fa11f082f4d0facb7612a6ea61c}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{2e327fa11f082f4d0facb7612a6ea61c}
+      \strng{fullhash}{2e327fa11f082f4d0facb7612a6ea61c}
+      \strng{bibnamehash}{2e327fa11f082f4d0facb7612a6ea61c}
+      \strng{authorbibnamehash}{2e327fa11f082f4d0facb7612a6ea61c}
+      \strng{authornamehash}{2e327fa11f082f4d0facb7612a6ea61c}
+      \strng{authorfullhash}{2e327fa11f082f4d0facb7612a6ea61c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimental Film and Anthropology}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{criterionhausu}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8ae9c38f0036c4a1b304906543bda40a}{%
+           family={Collection},
+           familyi={C\bibinitperiod},
+           given={Criterion},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{fullhash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{bibnamehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{authorbibnamehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{authornamehash}{8ae9c38f0036c4a1b304906543bda40a}
+      \strng{authorfullhash}{8ae9c38f0036c4a1b304906543bda40a}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Criterion Booklet and Online Essays}
+      \field{title}{Hausu: Essays and Restored Edition}
+      \field{year}{2010}
+      \true{nocite}
+    \endentry
+    \entry{japansocietyobayashi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b819396ec1fc1a3a4bac74707fd6439c}{%
+           family={Society},
+           familyi={S\bibinitperiod},
+           given={Japan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b819396ec1fc1a3a4bac74707fd6439c}
+      \strng{fullhash}{b819396ec1fc1a3a4bac74707fd6439c}
+      \strng{bibnamehash}{b819396ec1fc1a3a4bac74707fd6439c}
+      \strng{authorbibnamehash}{b819396ec1fc1a3a4bac74707fd6439c}
+      \strng{authornamehash}{b819396ec1fc1a3a4bac74707fd6439c}
+      \strng{authorfullhash}{b819396ec1fc1a3a4bac74707fd6439c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Program Booklet}
+      \field{title}{Obayashi Nobuhiko: A Visionary of Japanese Cinema}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{WadaMarciano2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f27fc8952ec5f865edf69c6601bdcdf}{%
+           family={Wada-Marciano},
+           familyi={W\bibinithyphendelim M\bibinitperiod},
+           given={Mitsuyo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f27fc8952ec5f865edf69c6601bdcdf}
+      \strng{fullhash}{2f27fc8952ec5f865edf69c6601bdcdf}
+      \strng{bibnamehash}{2f27fc8952ec5f865edf69c6601bdcdf}
+      \strng{authorbibnamehash}{2f27fc8952ec5f865edf69c6601bdcdf}
+      \strng{authornamehash}{2f27fc8952ec5f865edf69c6601bdcdf}
+      \strng{authorfullhash}{2f27fc8952ec5f865edf69c6601bdcdf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Positions: East Asia Cultures Critique}
+      \field{number}{1}
+      \field{title}{Contemporary Japanese Cinema in Transition}
+      \field{volume}{17}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{141\bibrangedash 173}
+      \range{pages}{33}
+    \endentry
+    \entry{JFDB2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3bf22fcfa840784e461a8daa52b2177f}{%
+           family={{Japan Film Database}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bf22fcfa840784e461a8daa52b2177f}
+      \strng{fullhash}{3bf22fcfa840784e461a8daa52b2177f}
+      \strng{bibnamehash}{3bf22fcfa840784e461a8daa52b2177f}
+      \strng{authorbibnamehash}{3bf22fcfa840784e461a8daa52b2177f}
+      \strng{authornamehash}{3bf22fcfa840784e461a8daa52b2177f}
+      \strng{authorfullhash}{3bf22fcfa840784e461a8daa52b2177f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Japan's Studio System: A Short History}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://jfdb.jp/en/column/2024/11/Japans_Studio_System_A_Short_History
+      \endverb
+      \verb{url}
+      \verb https://jfdb.jp/en/column/2024/11/Japans_Studio_System_A_Short_History
+      \endverb
+    \endentry
+    \entry{MasumuraStudy}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e7d5253ea94fa9c642303bef9e588cd8}{%
+           family={Anon.},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{fullhash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{bibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authorbibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authornamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authorfullhash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Space In-Between: Masumura Yasuzo and the Japanese New Wave}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://scholarsbank.uoregon.edu/handle/1794/22793
+      \endverb
+      \verb{url}
+      \verb https://scholarsbank.uoregon.edu/handle/1794/22793
+      \endverb
+    \endentry
+    \entry{BritannicaShochiku}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a93aaf3420271bea911f554aed046069}{%
+           family={{Encyclopaedia Britannica}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a93aaf3420271bea911f554aed046069}
+      \strng{fullhash}{a93aaf3420271bea911f554aed046069}
+      \strng{bibnamehash}{a93aaf3420271bea911f554aed046069}
+      \strng{authorbibnamehash}{a93aaf3420271bea911f554aed046069}
+      \strng{authornamehash}{a93aaf3420271bea911f554aed046069}
+      \strng{authorfullhash}{a93aaf3420271bea911f554aed046069}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shochiku Co., Ltd.}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.britannica.com/money/Shochiku-Co-Ltd
+      \endverb
+      \verb{url}
+      \verb https://www.britannica.com/money/Shochiku-Co-Ltd
+      \endverb
+    \endentry
+    \entry{PinkFilm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pink Film}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Pink_film
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Pink_film
+      \endverb
+    \endentry
+    \entry{WikipediaKingKongGodzilla1962}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{King Kong vs. Godzilla (1962 film)}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/King_Kong_vs._Godzilla
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/King_Kong_vs._Godzilla
+      \endverb
+    \endentry
+    \entry{JSTORGuestEditorPreface}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b41b3eb5b1919ec16a908fd546f6ef80}{%
+           family={Editor},
+           familyi={E\bibinitperiod},
+           given={Guest},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b41b3eb5b1919ec16a908fd546f6ef80}
+      \strng{fullhash}{b41b3eb5b1919ec16a908fd546f6ef80}
+      \strng{bibnamehash}{b41b3eb5b1919ec16a908fd546f6ef80}
+      \strng{authorbibnamehash}{b41b3eb5b1919ec16a908fd546f6ef80}
+      \strng{authornamehash}{b41b3eb5b1919ec16a908fd546f6ef80}
+      \strng{authorfullhash}{b41b3eb5b1919ec16a908fd546f6ef80}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Japanese and Korean Cinema}
+      \field{number}{1}
+      \field{title}{Guest Editor’s Preface}
+      \field{volume}{2}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{3\bibrangedash 5}
+      \range{pages}{3}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

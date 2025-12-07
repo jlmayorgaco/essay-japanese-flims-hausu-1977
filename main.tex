@@ -10,15 +10,19 @@
 \usepackage{csquotes}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
+\usepackage{booktabs}   % para \toprule, \midrule, \bottomrule
+\usepackage{tabularx}   % para tablas que se ajustan a \linewidth
+
 
 % ============================
 % 2. BIBLIOGRAPHY
 % ============================
 \usepackage[
-backend=biber,
-style=authoryear,
-natbib=true,
-maxcitenames=2
+    backend=biber,
+    style=ieee,      % Para que salga [1], [2]
+    natbib=true,
+    maxcitenames=2,
+    mincitenames=1   % <--- ¡ESTA LÍNEA ES LA CLAVE QUE TE FALTA!
 ]{biblatex}
 \addbibresource{references.bib}
 
@@ -42,6 +46,8 @@ maxcitenames=2
 % ============================
 % 5. DOCUMENT CONTENT
 % ============================
+
+
 \begin{document}
 	
 	% Generates the new "Hausu" graphical title page
